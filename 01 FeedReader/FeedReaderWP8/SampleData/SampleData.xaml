@@ -1,0 +1,10 @@
+﻿<viewModels:FeedReaderViewModel 
+  xmlns:viewModels="clr-namespace:FeedReaderCore.ViewModels;assembly=FeedReaderCorePortableWinRT"
+  xmlns:models="clr-namespace:FeedReaderCore.Models;assembly=FeedReaderCorePortableWinRT">
+  
+  <viewModels:FeedReaderViewModel.FeedItems>
+    <models:FeedItem Title="Erster Titel" Description="Das ist die erste Beschreibung" ArticleURL="http://www.localhost.de" DatePublished="3.5.2012"></models:FeedItem>
+  </viewModels:FeedReaderViewModel.FeedItems>
+  
+  
+</viewModels:FeedReaderViewModel>
