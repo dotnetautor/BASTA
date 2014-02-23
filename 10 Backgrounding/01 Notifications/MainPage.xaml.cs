@@ -15,9 +15,7 @@ namespace Notifications {
     // Constructor
     public MainPage() {
       InitializeComponent();
-
     }
-
 
     private void UpdateItemsList() {
       _notifications = ScheduledActionService.GetActions<ScheduledNotification>();
@@ -38,7 +36,7 @@ namespace Notifications {
     }
 
     private void ApplicationBarAddButton_Click(object sender, EventArgs e) {
-      // Navigate to the AddReminder page when the add button is clicked.
+      // auf die Seite AddNotification.xaml navigieren um Elemente hinzuzufügen.
       NavigationService.Navigate(new Uri("/AddNotification.xaml", UriKind.RelativeOrAbsolute));
     }
   }

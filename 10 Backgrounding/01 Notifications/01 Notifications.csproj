@@ -109,7 +109,7 @@
     <Compile Include="ShowParams.xaml.cs">
       <DependentUpon>ShowParams.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Utilities\Class1.cs" />
+    <Compile Include="Utilities\TypeTextConverter.cs" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">

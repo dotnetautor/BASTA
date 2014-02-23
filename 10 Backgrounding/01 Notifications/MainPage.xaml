@@ -17,8 +17,8 @@
   
   <phone:PhoneApplicationPage.Resources>
     <utilities:TypeTextConverter x:Key="TypeTextConverter" />
-    
   </phone:PhoneApplicationPage.Resources>
+  
   <!--LayoutRoot is the root grid where all page content is placed-->
   <Grid x:Name="LayoutRoot" Background="Transparent">
     <Grid.RowDefinitions>

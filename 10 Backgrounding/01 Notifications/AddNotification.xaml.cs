@@ -15,7 +15,7 @@ namespace Notifications {
 
       String name = Guid.NewGuid().ToString();
 
-      
+
       // Auslesen der Startzeit aus der UI
       var date = (DateTime)beginDatePicker.Value;
       var time = (DateTime)beginTimePicker.Value;
@@ -52,7 +52,7 @@ namespace Notifications {
         recurrence = RecurrenceInterval.Yearly;
       }
 
-      // Annlegen eines DeepLinks mit entsprechen Parametern
+      // Anlegen eines DeepLinks mit entsprechen Parametern
       string param1Value = param1TextBox.Text;
       string param2Value = param2TextBox.Text;
       string queryString = "";
@@ -63,6 +63,7 @@ namespace Notifications {
       }
       var navigationUri = new Uri("/ShowParams.xaml" + queryString, UriKind.Relative);
 
+     
       if ((bool)reminderRadioButton.IsChecked) {
         var reminder = new Reminder(name) {
           Title = titleTextBox.Text,
@@ -95,6 +96,6 @@ namespace Notifications {
       // ReSharper restore PossibleInvalidOperationException
     }
 
-    
+
   }
 }
