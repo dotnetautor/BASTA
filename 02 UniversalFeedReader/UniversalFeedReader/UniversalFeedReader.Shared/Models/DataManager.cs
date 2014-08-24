@@ -4,7 +4,9 @@ using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 using System.Xml.Linq;
-
+#if WIN8_PORTABLE
+using FeedReaderCore.Utilities;
+#endif
 namespace UniversalFeedReader.Models {
   public class DataManager {
     private DataManager() {}
